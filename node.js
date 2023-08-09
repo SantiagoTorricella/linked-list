@@ -1,9 +1,12 @@
 // factory function that create node object
-function nodeFactory(value) {
+const Node = (input) => {
   return {
-    value,
+    value: input || null,
     nextNode: null,
+    changeValue(newValue) {
+      this.value = newValue;
+    },
   };
-}
+};
 
-export default nodeFactory;
+export default Node;
