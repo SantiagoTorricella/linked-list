@@ -1,7 +1,7 @@
 # Linked List Project
  A single linked list implemented with JavaScript
 
- ##Features
+ ## Features
 - `append(value)` adds a new node to the end of the list 
 - `prepend(value)` adds a new node to the start of the list
 - `size()` returns the total number of nodes in the list
